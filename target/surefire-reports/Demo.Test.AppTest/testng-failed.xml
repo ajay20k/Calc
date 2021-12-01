@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo.Test.AppTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Demo.Test.AppTest">
+        <methods>
+          <include name="Division"/>
+          <include name="test"/>
+          <include name="Multiplication"/>
+          <include name="exit"/>
+          <include name="Subtraction"/>
+          <include name="Addition"/>
+        </methods>
+      </class> <!-- Demo.Test.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Demo.Test.AppTest] -->
